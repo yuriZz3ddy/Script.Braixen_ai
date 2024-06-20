@@ -33,5 +33,3 @@ async = fetch("https://www.seaart.ai/api/v1/artwork/recommend", {
   })
 }
  main()
-  
-  
