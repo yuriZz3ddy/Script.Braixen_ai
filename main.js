@@ -36,10 +36,10 @@ async = fetch("https://www.seaart.ai/api/v1/artwork/recommend", {
     var a = data.data.items
     var jsonp = JSON.stringify(a)
     for (var i = 0; i < a.length; i ++) {
+      
+    }
       addr = document.querySelector("pre")
       addr.textContent = jsonp;
-    }
-
   })
   .catch(er => {
     setTimeout(() => { 
@@ -51,6 +51,3 @@ async = fetch("https://www.seaart.ai/api/v1/artwork/recommend", {
   }
 }
  main()
- 
- 
- 
